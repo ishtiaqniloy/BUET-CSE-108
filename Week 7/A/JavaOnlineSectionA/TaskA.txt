@@ -1,0 +1,11 @@
+String Problems:
+
+1. How many lines & how commas are there? (3)
+2. Find how many 'buet' (case insensitive) are there? (3)
+3. Find out the starting position of 'buet' (case insensitive)
+   in the matched line. Each line starts from index 0.
+   (4)
+ 
+
+
+
