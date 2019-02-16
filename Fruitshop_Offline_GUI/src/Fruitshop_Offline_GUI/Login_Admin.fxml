@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane fx:id="LoginAdminScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fruitshop_Offline_GUI.Login_Admin_Controller">
+   <children>
+      <Label layoutX="79.0" layoutY="142.0" text="Username :">
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userField" layoutX="226.0" layoutY="148.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </TextField>
+      <Label layoutX="83.0" layoutY="233.0" text="Password :">
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="LoginPageLabel" layoutX="83.0" layoutY="76.0" text="Provide Username and Password to Continue...">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passField" layoutX="226.0" layoutY="239.0">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+      </PasswordField>
+      <Button fx:id="loginButton" layoutX="119.0" layoutY="303.0" mnemonicParsing="false" onAction="#LoginValidator" text="Login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="BackButton" layoutX="285.0" layoutY="303.0" mnemonicParsing="false" onAction="#Back" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="25.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <InnerShadow color="#00000070" />
+   </effect>
+</AnchorPane>
