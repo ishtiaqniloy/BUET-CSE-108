@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane fx:id="HomeScene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Fruitshop_Offline_GUI.HomeController">
+   <children>
+      <ImageView fitHeight="474.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fruit-shop-logo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="AdminButton" blendMode="MULTIPLY" layoutX="47.0" layoutY="161.0" mnemonicParsing="false" onAction="#LaunchAdmin" prefHeight="93.0" prefWidth="194.0" text="Admin">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="SalesmanButton" blendMode="MULTIPLY" layoutX="361.0" layoutY="161.0" mnemonicParsing="false" onAction="#LaunchSalesman" prefHeight="93.0" prefWidth="194.0" text="Salesman">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="ExitButton" blendMode="MULTIPLY" layoutX="203.0" layoutY="357.0" mnemonicParsing="false" onAction="#exit" prefHeight="93.0" prefWidth="194.0" text="Exit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Comic Sans MS Bold" size="33.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
